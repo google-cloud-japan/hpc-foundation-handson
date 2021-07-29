@@ -10,14 +10,14 @@
 
 ```sh
 cloudshell_open --page "shell" \
-    --repo_url "https://github.com/GoogleCloudPlatform/gcp-getting-started-lab-jp.git" \
-    --tutorial "hpc/slurm/tutorial.md"
+    --repo_url "https://github.com/google-cloud-japan/hpc-foundation-handson.git" \
+    --tutorial "slurm/tutorial.md"
 ```
 
 3. Cloud Shell の再起動や予期せずチュートリアルが消えてしまった場合は以下で再開できます。
 
 ```sh
-teachme ~/cloudshell_open/gcp-getting-started-lab-jp/hpc/slurm/tutorial.md
+teachme ~/cloudshell_open/hpc-foundation-handson/slurm/tutorial.md
 ```
 
 ## Slurm と Lustre による HPC 環境の構築
@@ -26,9 +26,9 @@ teachme ~/cloudshell_open/gcp-getting-started-lab-jp/hpc/slurm/tutorial.md
 
 ```sh
 cloudshell_open --page "shell" \
-    --repo_url "https://github.com/GoogleCloudPlatform/gcp-getting-started-lab-jp.git" \
-    --tutorial "hpc/slurm-lustre/tutorial.md"
-teachme ~/cloudshell_open/gcp-getting-started-lab-jp/hpc/slurm-lustre/tutorial.md
+    --repo_url "https://github.com/google-cloud-japan/hpc-foundation-handson.git" \
+    --tutorial "slurm-lustre/tutorial.md"
+teachme ~/cloudshell_open/hpc-foundation-handson/slurm-lustre/tutorial.md
 ```
 
 ## Slurm と Lustre による HPC 環境の構築（共有 VPC 版）
@@ -37,7 +37,7 @@ teachme ~/cloudshell_open/gcp-getting-started-lab-jp/hpc/slurm-lustre/tutorial.m
 
 ```sh
 cloudshell_open --page "shell" \
-    --repo_url "https://github.com/GoogleCloudPlatform/gcp-getting-started-lab-jp.git" \
-    --tutorial "hpc/slurm-lustre-with-shared-vpc/tutorial.md"
-teachme ~/cloudshell_open/gcp-getting-started-lab-jp/hpc/slurm-lustre-with-shared-vpc/tutorial.md
+    --repo_url "https://github.com/google-cloud-japan/hpc-foundation-handson.git" \
+    --tutorial "slurm-lustre-with-shared-vpc/tutorial.md"
+teachme ~/cloudshell_open/hpc-foundation-handson/slurm-lustre-with-shared-vpc/tutorial.md
 ```
